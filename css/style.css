@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  *{
+      margin:0;
+      padding:0;
+  }
+
+  a:link, a:visited{
+      text-decoration: none;
+  }
+
+  .bienvenida{
+      background-color: rgb(52, 50, 54);
+      padding: 20px;
+      color: rgb(27, 27, 27);
+  }
+
+  .lista-pozos, .lista-mediciones{
+      border: 1px solid rgb(172, 172, 172);
+      margin: 10px 10px 0 10px;
+      border-radius: 5px;
+  }
+  .btn-inicio{
+    margin: 15px 0 0 15px;
+}
+
+.fa-long-arrow-alt-left {
+    margin-right: 10px;
+}
+
+.registro-medicion{
+    background: rgb(245, 245, 245);
+    border: 1 px solid rgb(143, 143, 143);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registro-medicion form{
+    padding: 10px;
+}
